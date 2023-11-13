@@ -1,0 +1,23 @@
+{
+  "name": "wholesale-trade-vuejs",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@vuepic/vue-datepicker": "^7.2.2",
+    "axios": "^1.6.0",
+    "jspdf": "^2.5.1",
+    "jspdf-autotable": "^3.7.1",
+    "vue": "^3.3.4",
+    "vue-router": "^4.2.5"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^4.4.0",
+    "@vue/cli-plugin-router": "~5.0.0",
+    "vite": "^4.4.11"
+  }
+}
