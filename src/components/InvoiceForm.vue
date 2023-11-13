@@ -75,13 +75,13 @@ export default {
 
         this.products.forEach((e, index) => {
             if (e.id == '') {
-                this.val_err.push('Select a product in ' + (index+1) + ' item.');
+                this.val_err.push('Виберіть продукт в ' + (index+1) + ' позиції.');
             }
             if (e.qty == '') {
-                this.val_err.push('Enter product quantity in ' + (index+1) + ' item.');
+                this.val_err.push('Введіть кількість товару ' + (index+1) + ' позиції.');
             }
             if (e.qty <= 0) {
-                this.val_err.push('Quantity of product in ' + (index+1) + ' item must be greater than zero.');
+                this.val_err.push('Кількість товару в ' + (index+1) + ' позиції має бути більше нуля.');
             }
         });
     }
